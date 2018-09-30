@@ -98,30 +98,3 @@ print("final accuracy on test set: %s" %str(sess.run(accuracy_OP, feed_dict={X: 
 #plot cost values
 plt.plot([np.mean(cost_values[i-50:i]) for i in range(len(cost_values))])
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

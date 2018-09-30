@@ -57,6 +57,3 @@ green_line = mpatches.Patch(color='red', label='Data Points')
 
 plt.legend(handles=[green_line])
 plt.show()
-
-
-

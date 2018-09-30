@@ -12,8 +12,7 @@ init = tf.global_variables_initializer()
 
 with tf.Session() as sess:
         sess.run(init)
-
-		print("Input \n")
+        print("Input \n")
 		print('{0} \n'.format(input.eval()))
 		print("Filter/Kernel \n")
 		print('{0} \n'.format(filter.eval()))
